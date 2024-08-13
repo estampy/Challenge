@@ -1,0 +1,28 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#outputText {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+    max-height: 100%;
+}
+
+/* Estilos personalizados para el diseño de columnas */
+.col-input {
+    flex: 3; /* 75% del espacio disponible */
+}
+
+.col-output {
+    flex: 1; /* 25% del espacio disponible */
+}
